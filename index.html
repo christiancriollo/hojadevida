@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Hoja de Vida | TU NOMBRE</title>
+    <meta name="description"
+          content="Hoja de vida y portafolio personal de Christian Criollo">
 
-    <meta name="description" content="Hoja de vida y portafolio personal de TU NOMBRE">
+    <title>Christian Criollo | Hoja de Vida</title>
 
     <!-- Iconos -->
     <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
@@ -27,781 +28,130 @@
 
         <nav class="navbar">
 
-            <div class="logo">
-                TU NOMBRE
-            </div>
+            <a class="logo" href="#inicio">
+                CHRISTIAN CRIOLLO
+            </a>
+
+            <button class="menu-btn"
+                    onclick="toggleMenu()"
+                    aria-label="Abrir menú">
+
+                <i class="fas fa-bars"></i>
+
+            </button>
 
             <ul class="nav-links">
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#sobre-mi">Sobre mí</a></li>
-                <li><a href="#formacion">Formación</a></li>
-                <li><a href="#experiencia">Experiencia</a></li>
-                <li><a href="#idiomas">Idiomas</a></li>
-                <li><a href="#capacitaciones">Capacitaciones</a></li>
-                <li><a href="#recomendaciones">Recomendaciones</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
 
-            <button class="menu-btn" onclick="toggleMenu()">
-                <i class="fas fa-bars"></i>
-            </button>
+                <li>
+                    <a href="#inicio">Inicio</a>
+                </li>
+
+                <li>
+                    <a href="#sobre-mi">Perfil</a>
+                </li>
+
+                <li>
+                    <a href="#formacion">Formación</a>
+                </li>
+
+                <li>
+                    <a href="#experiencia">Experiencia</a>
+                </li>
+
+                <li>
+                    <a href="#idiomas">Idiomas</a>
+                </li>
+
+                <li>
+                    <a href="#capacitaciones">Capacitaciones</a>
+                </li>
+
+                <li>
+                    <a href="#recomendaciones">Recomendación</a>
+                </li>
+
+                <li>
+                    <a href="#contacto">Contacto</a>
+                </li>
+
+            </ul>
 
         </nav>
 
     </header>
 
 
-    <!-- =========================
-         INICIO
-    ========================== -->
+    <main>
 
-    <section id="inicio" class="hero">
 
-        <div class="hero-content">
+        <!-- =========================
+             INICIO
+        ========================== -->
 
-            <div class="profile-photo">
+        <section id="inicio" class="hero">
 
-                <!-- Cambia foto.jpg por el nombre de tu foto -->
+            <div class="hero-content">
 
-                <img src="img/foto.jpg" alt="Foto de TU NOMBRE">
 
-            </div>
+                <!-- FOTO -->
 
-            <div class="hero-text">
+                <div class="profile-photo">
 
-                <p class="welcome">
-                    BIENVENIDO A MI PORTAFOLIO
-                </p>
+                    <!-- IMPORTANTE:
+                         Tu foto debe estar en:
+                         img/foto.jpg
+                    -->
 
-                <h1>
-                    TU NOMBRE COMPLETO
-                </h1>
-
-                <h2>
-                    Estudiante de Tecnología / Informática
-                </h2>
-
-                <p>
-                    Estudiante interesado en tecnología, informática,
-                    redes y administración de sistemas.
-                </p>
-
-                <div class="hero-buttons">
-
-                    <a href="#contacto" class="btn">
-                        <i class="fas fa-envelope"></i>
-                        Contactarme
-                    </a>
-
-                    <a href="documentos/cv.pdf"
-                       class="btn btn-outline"
-                       target="_blank">
-
-                        <i class="fas fa-file-pdf"></i>
-                        Ver mi CV
-
-                    </a>
+                    <img src="img/foto.jpg"
+                         alt="Foto de Christian Criollo">
 
                 </div>
 
-            </div>
 
-        </div>
+                <!-- INFORMACIÓN PRINCIPAL -->
 
-    </section>
+                <div class="hero-text">
 
+                    <p class="eyebrow">
+                        HOJA DE VIDA • PORTAFOLIO PERSONAL
+                    </p>
 
-    <!-- =========================
-         SOBRE MÍ
-    ========================== -->
+                    <h1>
+                        Christian Criollo
+                    </h1>
 
-    <section id="sobre-mi" class="section">
-
-        <div class="container">
-
-            <div class="section-title">
-
-                <span>SOBRE MÍ</span>
-
-                <h2>Conóceme</h2>
-
-            </div>
-
-            <div class="about">
-
-                <div class="about-text">
-
-                    <h3>¿Quién soy?</h3>
+                    <h2>
+                        Estudiante de Administración de
+                        Infraestructura y Plataformas Tecnológicas
+                    </h2>
 
                     <p>
-                        Hola, soy <strong>TU NOMBRE</strong>.
-                        Soy estudiante de
-                        <strong>TU CARRERA</strong> en
-                        <strong>TU UNIVERSIDAD</strong>.
+                        Estudiante de tecnología interesado en
+                        infraestructura, redes, sistemas Linux
+                        y Cloud Computing.
                     </p>
 
-                    <p>
-                        Me interesa el área de tecnología,
-                        informática, redes y administración
-                        de sistemas. Me gusta aprender nuevas
-                        herramientas y desarrollar mis
-                        conocimientos mediante proyectos
-                        académicos y personales.
-                    </p>
 
-                    <p>
-                        Actualmente estoy fortaleciendo mis
-                        conocimientos para seguir creciendo
-                        profesionalmente.
-                    </p>
+                    <div class="buttons">
 
-                </div>
-
-
-                <div class="personal-data">
-
-                    <h3>Datos personales</h3>
-
-                    <div class="data-item">
-                        <i class="fas fa-user"></i>
-                        <div>
-                            <strong>Nombre</strong>
-                            <p>TU NOMBRE COMPLETO</p>
-                        </div>
-                    </div>
-
-                    <div class="data-item">
-                        <i class="fas fa-location-dot"></i>
-                        <div>
-                            <strong>Ciudad</strong>
-                            <p>Cuenca, Ecuador</p>
-                        </div>
-                    </div>
-
-                    <div class="data-item">
-                        <i class="fas fa-envelope"></i>
-                        <div>
-                            <strong>Correo</strong>
-                            <p>TU CORREO</p>
-                        </div>
-                    </div>
-
-                    <div class="data-item">
-                        <i class="fas fa-phone"></i>
-                        <div>
-                            <strong>Teléfono</strong>
-                            <p>TU TELÉFONO</p>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- =========================
-         FORMACIÓN ACADÉMICA
-    ========================== -->
-
-    <section id="formacion" class="section gray">
-
-        <div class="container">
-
-            <div class="section-title">
-
-                <span>FORMACIÓN</span>
-
-                <h2>Instrucción formal</h2>
-
-            </div>
-
-
-            <div class="timeline">
-
-                <!-- Universidad -->
-
-                <div class="timeline-item">
-
-                    <div class="timeline-icon">
-                        <i class="fas fa-graduation-cap"></i>
-                    </div>
-
-                    <div class="timeline-content">
-
-                        <span class="date">
-                            202X - ACTUALIDAD
-                        </span>
-
-                        <h3>
-                            TU CARRERA
-                        </h3>
-
-                        <h4>
-                            TU UNIVERSIDAD
-                        </h4>
-
-                        <p>
-                            Estudiante de la carrera de
-                            TU CARRERA.
-                        </p>
-
-                        <!-- CAMBIA ESTE LINK -->
-
-                        <a href="https://www.ucuenca.edu.ec/"
-                           target="_blank"
-                           class="small-btn">
-
-                            <i class="fas fa-link"></i>
-                            Ver institución
-
-                        </a>
-
-                    </div>
-
-                </div>
-
-
-                <!-- Bachillerato -->
-
-                <div class="timeline-item">
-
-                    <div class="timeline-icon">
-                        <i class="fas fa-school"></i>
-                    </div>
-
-                    <div class="timeline-content">
-
-                        <span class="date">
-                            20XX - 20XX
-                        </span>
-
-                        <h3>
-                            Bachillerato
-                        </h3>
-
-                        <h4>
-                            NOMBRE DEL COLEGIO
-                        </h4>
-
-                        <p>
-                            Bachillerato / título obtenido.
-                        </p>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- =========================
-         EXPERIENCIA
-    ========================== -->
-
-    <section id="experiencia" class="section">
-
-        <div class="container">
-
-            <div class="section-title">
-
-                <span>EXPERIENCIA</span>
-
-                <h2>Experiencia profesional</h2>
-
-            </div>
-
-
-            <div class="experience-container">
-
-                <div class="experience-card">
-
-                    <div class="experience-icon">
-                        <i class="fas fa-briefcase"></i>
-                    </div>
-
-                    <div>
-
-                        <span class="date">
-                            FECHA
-                        </span>
-
-                        <h3>
-                            CARGO / ACTIVIDAD
-                        </h3>
-
-                        <h4>
-                            EMPRESA
-                        </h4>
-
-                        <p>
-                            Descripción de las actividades
-                            realizadas, responsabilidades y
-                            conocimientos adquiridos.
-                        </p>
-
-                    </div>
-
-                </div>
-
-
-                <!-- Si no tienes experiencia laboral,
-                     puedes utilizar esta tarjeta -->
-
-                <div class="experience-card">
-
-                    <div class="experience-icon">
-                        <i class="fas fa-laptop-code"></i>
-                    </div>
-
-                    <div>
-
-                        <span class="date">
-                            EXPERIENCIA ACADÉMICA
-                        </span>
-
-                        <h3>
-                            Proyectos académicos
-                        </h3>
-
-                        <h4>
-                            UNIVERSIDAD
-                        </h4>
-
-                        <p>
-                            Participación en proyectos
-                            académicos relacionados con
-                            tecnología, informática y
-                            administración de sistemas.
-                        </p>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- =========================
-         IDIOMAS
-    ========================== -->
-
-    <section id="idiomas" class="section gray">
-
-        <div class="container">
-
-            <div class="section-title">
-
-                <span>IDIOMAS</span>
-
-                <h2>Idiomas y conocimientos</h2>
-
-            </div>
-
-
-            <div class="languages">
-
-                <div class="language-card">
-
-                    <div class="language-icon">
-                        <i class="fas fa-language"></i>
-                    </div>
-
-                    <h3>Español</h3>
-
-                    <p>Idioma nativo</p>
-
-                    <div class="progress">
-
-                        <div class="progress-bar"
-                             style="width: 100%;"></div>
-
-                    </div>
-
-                </div>
-
-
-                <div class="language-card">
-
-                    <div class="language-icon">
-                        <i class="fas fa-earth-americas"></i>
-                    </div>
-
-                    <h3>Inglés</h3>
-
-                    <p>Nivel A2</p>
-
-                    <div class="progress">
-
-                        <div class="progress-bar"
-                             style="width: 40%;"></div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- =========================
-         CAPACITACIONES
-    ========================== -->
-
-    <section id="capacitaciones" class="section">
-
-        <div class="container">
-
-            <div class="section-title">
-
-                <span>CAPACITACIONES</span>
-
-                <h2>Cursos y certificaciones</h2>
-
-            </div>
-
-
-            <div class="cards">
-
-
-                <!-- CAPACITACIÓN 1 -->
-
-                <div class="card">
-
-                    <div class="card-icon">
-                        <i class="fas fa-certificate"></i>
-                    </div>
-
-                    <h3>
-                        NOMBRE DEL CURSO
-                    </h3>
-
-                    <p class="card-place">
-                        Institución / Plataforma
-                    </p>
-
-                    <p>
-                        Breve descripción de la
-                        capacitación realizada.
-                    </p>
-
-                    <!-- LINK DE CANVA -->
-
-                    <a href="https://www.canva.com/"
-                       target="_blank"
-                       class="small-btn">
-
-                        <i class="fas fa-palette"></i>
-                        Ver en Canva
-
-                    </a>
-
-                </div>
-
-
-                <!-- CAPACITACIÓN 2 -->
-
-                <div class="card">
-
-                    <div class="card-icon">
-                        <i class="fas fa-computer"></i>
-                    </div>
-
-                    <h3>
-                        SEGUNDO CURSO
-                    </h3>
-
-                    <p class="card-place">
-                        Institución
-                    </p>
-
-                    <p>
-                        Descripción del curso o
-                        certificación.
-                    </p>
-
-                    <a href="#"
-                       class="small-btn">
-
-                        <i class="fas fa-file"></i>
-                        Ver certificado
-
-                    </a>
-
-                </div>
-
-
-                <!-- CAPACITACIÓN 3 -->
-
-                <div class="card">
-
-                    <div class="card-icon">
-                        <i class="fas fa-network-wired"></i>
-                    </div>
-
-                    <h3>
-                        TERCER CURSO
-                    </h3>
-
-                    <p class="card-place">
-                        Institución
-                    </p>
-
-                    <p>
-                        Descripción del curso o
-                        certificación.
-                    </p>
-
-                    <a href="#"
-                       class="small-btn">
-
-                        <i class="fas fa-file"></i>
-                        Ver certificado
-
-                    </a>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- =========================
-         RECOMENDACIONES
-    ========================== -->
-
-    <section id="recomendaciones" class="section gray">
-
-        <div class="container">
-
-            <div class="section-title">
-
-                <span>RECOMENDACIONES</span>
-
-                <h2>Referencias</h2>
-
-            </div>
-
-
-            <div class="recommendation">
-
-                <div class="quote-icon">
-
-                    <i class="fas fa-quote-left"></i>
-
-                </div>
-
-                <p>
-                    "Aquí irá una recomendación real
-                    realizada por una persona o empresa."
-                </p>
-
-                <div class="recommender">
-
-                    <h3>
-                        NOMBRE DE LA PERSONA
-                    </h3>
-
-                    <p>
-                        Cargo — EMPRESA
-                    </p>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- =========================
-         GOOGLE DRIVE
-    ========================== -->
-
-    <section class="section">
-
-        <div class="container">
-
-            <div class="section-title">
-
-                <span>DOCUMENTOS</span>
-
-                <h2>Mi Google Drive</h2>
-
-            </div>
-
-
-            <div class="drive-box">
-
-                <div class="drive-icon">
-
-                    <i class="fab fa-google-drive"></i>
-
-                </div>
-
-                <div>
-
-                    <h3>
-                        Documentos y certificados
-                    </h3>
-
-                    <p>
-                        Puedes consultar mis documentos,
-                        certificados y archivos relacionados
-                        con mi formación.
-                    </p>
-
-                </div>
-
-                <!-- CAMBIA EL LINK POR TU CARPETA -->
-
-                <a href="#"
-                   target="_blank"
-                   class="btn">
-
-                    <i class="fab fa-google-drive"></i>
-
-                    Abrir Google Drive
-
-                </a>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- =========================
-         CONTACTO
-    ========================== -->
-
-    <section id="contacto" class="contact">
-
-        <div class="container">
-
-            <div class="section-title">
-
-                <span>CONTACTO</span>
-
-                <h2>Contáctame</h2>
-
-            </div>
-
-
-            <div class="contact-container">
-
-
-                <div class="contact-info">
-
-                    <div class="contact-item">
-
-                        <i class="fas fa-envelope"></i>
-
-                        <div>
-
-                            <h3>Correo</h3>
-
-                            <p>
-                                TU CORREO
-                            </p>
-
-                        </div>
-
-                    </div>
-
-
-                    <div class="contact-item">
-
-                        <i class="fas fa-phone"></i>
-
-                        <div>
-
-                            <h3>Teléfono</h3>
-
-                            <p>
-                                TU TELÉFONO
-                            </p>
-
-                        </div>
-
-                    </div>
-
-
-                    <div class="contact-item">
-
-                        <i class="fas fa-location-dot"></i>
-
-                        <div>
-
-                            <h3>Ubicación</h3>
-
-                            <p>
-                                Cuenca, Ecuador
-                            </p>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-
-                <div class="social">
-
-                    <h3>
-                        Mis redes
-                    </h3>
-
-                    <div class="social-links">
-
-                        <!-- GITHUB -->
-
-                        <a href="#"
-                           target="_blank"
-                           title="GitHub">
-
-                            <i class="fab fa-github"></i>
-
-                        </a>
-
-
-                        <!-- LINKEDIN -->
-
-                        <a href="#"
-                           target="_blank"
-                           title="LinkedIn">
-
-                            <i class="fab fa-linkedin"></i>
-
-                        </a>
-
-
-                        <!-- EMAIL -->
-
-                        <a href="mailto:TU CORREO"
-                           title="Correo">
+                        <a class="btn"
+                           href="#contacto">
 
                             <i class="fas fa-envelope"></i>
 
+                            Contactarme
+
+                        </a>
+
+
+                        <a class="btn secondary"
+                           href="documentos/cv.pdf"
+                           target="_blank">
+
+                            <i class="fas fa-file-pdf"></i>
+
+                            Ver mi CV
+
                         </a>
 
                     </div>
@@ -810,9 +160,884 @@
 
             </div>
 
-        </div>
+        </section>
 
-    </section>
+
+        <!-- =========================
+             SOBRE MÍ
+        ========================== -->
+
+        <section id="sobre-mi"
+                 class="section">
+
+            <div class="container">
+
+
+                <div class="section-title">
+
+                    <span>
+                        PERFIL
+                    </span>
+
+                    <h2>
+                        Sobre mí
+                    </h2>
+
+                </div>
+
+
+                <div class="about-grid">
+
+
+                    <article class="about-text">
+
+                        <h3>
+                            Perfil profesional
+                        </h3>
+
+                        <p>
+                            Soy Christian Criollo, estudiante de
+                            Administración de Infraestructura y
+                            Plataformas Tecnológicas.
+                        </p>
+
+                        <p>
+                            Actualmente estoy desarrollando mis
+                            conocimientos en infraestructura
+                            tecnológica, redes, sistemas
+                            operativos y Cloud Computing.
+                        </p>
+
+                        <p>
+                            Me caracterizo por el compromiso,
+                            el trabajo en equipo, la organización
+                            y la disposición para adquirir
+                            experiencia profesional en entornos
+                            reales.
+                        </p>
+
+                    </article>
+
+
+                    <!-- DATOS PERSONALES -->
+
+                    <article class="data-card">
+
+                        <h3>
+                            Datos personales
+                        </h3>
+
+
+                        <div class="data-item">
+
+                            <i class="fas fa-user"></i>
+
+                            <div>
+
+                                <strong>
+                                    Nombre
+                                </strong>
+
+                                <span>
+                                    Christian Criollo
+                                </span>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="data-item">
+
+                            <i class="fas fa-location-dot"></i>
+
+                            <div>
+
+                                <strong>
+                                    Ciudad
+                                </strong>
+
+                                <span>
+                                    Cuenca, Ecuador
+                                </span>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="data-item">
+
+                            <i class="fas fa-envelope"></i>
+
+                            <div>
+
+                                <strong>
+                                    Correo
+                                </strong>
+
+                                <span>
+                                    christian.criollo06@ucuenca.edu.ec
+                                </span>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="data-item">
+
+                            <i class="fas fa-phone"></i>
+
+                            <div>
+
+                                <strong>
+                                    Teléfono
+                                </strong>
+
+                                <span>
+                                    0959025041
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             FORMACIÓN
+        ========================== -->
+
+        <section id="formacion"
+                 class="section gray">
+
+            <div class="container">
+
+
+                <div class="section-title">
+
+                    <span>
+                        EDUCACIÓN
+                    </span>
+
+                    <h2>
+                        Instrucción formal
+                    </h2>
+
+                </div>
+
+
+                <div class="timeline">
+
+
+                    <!-- UNIVERSIDAD -->
+
+                    <article class="timeline-item">
+
+                        <div class="timeline-icon">
+
+                            <i class="fas fa-graduation-cap"></i>
+
+                        </div>
+
+
+                        <div class="timeline-content">
+
+                            <span class="date">
+                                2026 • ACTUALIDAD
+                            </span>
+
+                            <h3>
+                                Administración de Infraestructura
+                                y Plataformas Tecnológicas
+                            </h3>
+
+                            <h4>
+                                Universidad de Cuenca
+                            </h4>
+
+                            <p>
+                                Carrera en curso, orientada al
+                                aprendizaje de infraestructura
+                                y plataformas tecnológicas.
+                            </p>
+
+
+                            <a class="small-btn"
+                               href="https://www.ucuenca.edu.ec/"
+                               target="_blank">
+
+                                <i class="fas fa-link"></i>
+
+                                Sitio de la Universidad
+
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- COLEGIO -->
+
+                    <article class="timeline-item">
+
+                        <div class="timeline-icon">
+
+                            <i class="fas fa-school"></i>
+
+                        </div>
+
+
+                        <div class="timeline-content">
+
+                            <span class="date">
+                                2024
+                            </span>
+
+                            <h3>
+                                Bachillerato
+                            </h3>
+
+                            <h4>
+                                Colegio Manuela Garaicoa
+                                de Calderón
+                            </h4>
+
+                            <p>
+                                Graduado en 2024 de la carrera
+                                de Ciencias Básicas.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             EXPERIENCIA
+        ========================== -->
+
+        <section id="experiencia"
+                 class="section">
+
+            <div class="container">
+
+
+                <div class="section-title">
+
+                    <span>
+                        EXPERIENCIA Y PRÁCTICA
+                    </span>
+
+                    <h2>
+                        Experiencia
+                    </h2>
+
+                </div>
+
+
+                <div class="cards two">
+
+
+                    <!-- REDES -->
+
+                    <article class="card">
+
+                        <div class="card-icon">
+
+                            <i class="fas fa-network-wired"></i>
+
+                        </div>
+
+                        <span class="tag">
+                            PRÁCTICA ACADÉMICA
+                        </span>
+
+                        <h3>
+                            Redes y administración
+                            de infraestructura
+                        </h3>
+
+                        <p>
+                            Prácticas académicas relacionadas
+                            con redes LAN, configuración y
+                            análisis de redes, monitoreo de
+                            servicios y fundamentos de
+                            administración de infraestructura.
+                        </p>
+
+                    </article>
+
+
+                    <!-- SISTEMAS -->
+
+                    <article class="card">
+
+                        <div class="card-icon">
+
+                            <i class="fas fa-server"></i>
+
+                        </div>
+
+                        <span class="tag">
+                            FORMACIÓN TÉCNICA
+                        </span>
+
+                        <h3>
+                            Sistemas Windows y Linux
+                        </h3>
+
+                        <p>
+                            Uso de sistemas operativos Windows
+                            y Linux, comandos básicos, usuarios
+                            y permisos, procesos, memoria y
+                            almacenamiento.
+                        </p>
+
+                    </article>
+
+                </div>
+
+
+                <p class="note">
+
+                    El CV proporcionado no registra
+                    experiencia laboral formal, por eso esta
+                    sección presenta experiencia y práctica
+                    académica sin inventar empleos.
+
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             IDIOMAS
+        ========================== -->
+
+        <section id="idiomas"
+                 class="section gray">
+
+            <div class="container">
+
+
+                <div class="section-title">
+
+                    <span>
+                        IDIOMAS
+                    </span>
+
+                    <h2>
+                        Idiomas
+                    </h2>
+
+                </div>
+
+
+                <div class="cards two">
+
+
+                    <!-- ESPAÑOL -->
+
+                    <article class="card language">
+
+                        <div class="card-icon">
+
+                            <i class="fas fa-language"></i>
+
+                        </div>
+
+                        <h3>
+                            Español
+                        </h3>
+
+                        <p>
+                            Idioma nativo
+                        </p>
+
+                        <div class="progress">
+
+                            <span style="width:100%"></span>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- INGLÉS -->
+
+                    <article class="card language">
+
+                        <div class="card-icon">
+
+                            <i class="fas fa-earth-americas"></i>
+
+                        </div>
+
+                        <h3>
+                            Inglés
+                        </h3>
+
+                        <p>
+                            Nivel A2
+                        </p>
+
+                        <div class="progress">
+
+                            <span style="width:40%"></span>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             CAPACITACIONES
+        ========================== -->
+
+        <section id="capacitaciones"
+                 class="section">
+
+            <div class="container">
+
+
+                <div class="section-title">
+
+                    <span>
+                        CAPACITACIONES
+                    </span>
+
+                    <h2>
+                        Cursos y conocimientos
+                    </h2>
+
+                </div>
+
+
+                <div class="cards">
+
+
+                    <!-- CISCO -->
+
+                    <article class="card">
+
+                        <div class="card-icon">
+
+                            <i class="fas fa-certificate"></i>
+
+                        </div>
+
+                        <span class="tag">
+                            CISCO
+                        </span>
+
+                        <h3>
+                            Operating Systems Basics
+                        </h3>
+
+                        <p>
+                            Fundamentos de sistemas operativos,
+                            administración básica, usuarios y
+                            permisos, procesos, memoria,
+                            almacenamiento y comandos básicos
+                            de Linux.
+                        </p>
+
+                    </article>
+
+
+                    <!-- REDES -->
+
+                    <article class="card">
+
+                        <div class="card-icon">
+
+                            <i class="fas fa-network-wired"></i>
+
+                        </div>
+
+                        <span class="tag">
+                            TECNOLOGÍA
+                        </span>
+
+                        <h3>
+                            Redes LAN
+                        </h3>
+
+                        <p>
+                            Configuración y análisis de redes
+                            LAN mediante prácticas académicas
+                            y simuladores.
+                        </p>
+
+                    </article>
+
+
+                    <!-- CLOUD -->
+
+                    <article class="card">
+
+                        <div class="card-icon">
+
+                            <i class="fas fa-cloud"></i>
+
+                        </div>
+
+                        <span class="tag">
+                            ACTUAL
+                        </span>
+
+                        <h3>
+                            Cloud Computing
+                        </h3>
+
+                        <p>
+                            Área de estudio actual dentro de
+                            la formación tecnológica, enfocada
+                            en infraestructura y plataformas
+                            en la nube.
+                        </p>
+
+                    </article>
+
+                </div>
+
+
+                <!-- CANVA -->
+
+                <div class="canva-box">
+
+                    <div>
+
+                        <h3>
+                            Material de capacitación en Canva
+                        </h3>
+
+                        <p>
+                            Aquí colocaremos el enlace real
+                            de tu presentación o trabajo
+                            realizado en Canva.
+                        </p>
+
+                    </div>
+
+
+                    <!-- CAMBIAR CUANDO TENGAMOS EL LINK -->
+
+                    <a class="btn"
+                       href="https://www.canva.com/"
+                       target="_blank">
+
+                        <i class="fas fa-palette"></i>
+
+                        Abrir Canva
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             RECOMENDACIONES
+        ========================== -->
+
+        <section id="recomendaciones"
+                 class="section gray">
+
+            <div class="container">
+
+
+                <div class="section-title">
+
+                    <span>
+                        RECOMENDACIÓN
+                    </span>
+
+                    <h2>
+                        Referencia profesional
+                    </h2>
+
+                </div>
+
+
+                <div class="recommendation">
+
+                    <i class="fas fa-quote-left"></i>
+
+                    <h3>
+                        Agregar recomendación real
+                    </h3>
+
+                    <p>
+                        Esta sección debe contener una
+                        recomendación de una persona o
+                        empresa que conozca tu trabajo,
+                        estudios o desempeño.
+                    </p>
+
+                    <div class="placeholder">
+
+                        NOMBRE DE LA PERSONA
+                        • CARGO
+                        • EMPRESA
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             GOOGLE DRIVE
+        ========================== -->
+
+        <section class="section">
+
+            <div class="container">
+
+
+                <div class="section-title">
+
+                    <span>
+                        DOCUMENTOS
+                    </span>
+
+                    <h2>
+                        Google Drive
+                    </h2>
+
+                </div>
+
+
+                <div class="drive-box">
+
+
+                    <div class="drive-icon">
+
+                        <i class="fab fa-google-drive"></i>
+
+                    </div>
+
+
+                    <div>
+
+                        <h3>
+                            Documentos académicos
+                            y profesionales
+                        </h3>
+
+                        <p>
+                            Aquí se almacenarán el CV,
+                            certificados, documentos
+                            académicos, capacitaciones
+                            y recomendaciones.
+                        </p>
+
+                    </div>
+
+
+                    <!-- PONER AQUÍ EL LINK REAL -->
+
+                    <a class="btn"
+                       href="#"
+                       target="_blank">
+
+                        <i class="fab fa-google-drive"></i>
+
+                        Abrir Drive
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             CONTACTO
+        ========================== -->
+
+        <section id="contacto"
+                 class="contact">
+
+            <div class="container">
+
+
+                <div class="section-title">
+
+                    <span>
+                        CONTACTO
+                    </span>
+
+                    <h2>
+                        Contáctame
+                    </h2>
+
+                </div>
+
+
+                <div class="contact-grid">
+
+
+                    <div>
+
+
+                        <!-- CORREO -->
+
+                        <div class="contact-item">
+
+                            <i class="fas fa-envelope"></i>
+
+                            <div>
+
+                                <strong>
+                                    Correo
+                                </strong>
+
+                                <a href="mailto:christian.criollo06@ucuenca.edu.ec">
+
+                                    christian.criollo06@ucuenca.edu.ec
+
+                                </a>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- TELÉFONO -->
+
+                        <div class="contact-item">
+
+                            <i class="fas fa-phone"></i>
+
+                            <div>
+
+                                <strong>
+                                    Teléfono
+                                </strong>
+
+                                <a href="tel:+593959025041">
+
+                                    0959025041
+
+                                </a>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- CIUDAD -->
+
+                        <div class="contact-item">
+
+                            <i class="fas fa-location-dot"></i>
+
+                            <div>
+
+                                <strong>
+                                    Ciudad
+                                </strong>
+
+                                <span>
+                                    Cuenca, Ecuador
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- REDES -->
+
+                    <div class="social">
+
+                        <h3>
+                            Redes y perfiles
+                        </h3>
+
+
+                        <div class="social-links">
+
+
+                            <!-- GITHUB -->
+
+                            <a href="https://github.com/"
+                               target="_blank"
+                               title="GitHub">
+
+                                <i class="fab fa-github"></i>
+
+                            </a>
+
+
+                            <!-- LINKEDIN -->
+
+                            <a href="#"
+                               target="_blank"
+                               title="LinkedIn">
+
+                                <i class="fab fa-linkedin"></i>
+
+                            </a>
+
+
+                            <!-- EMAIL -->
+
+                            <a href="mailto:christian.criollo06@ucuenca.edu.ec"
+                               title="Correo">
+
+                                <i class="fas fa-envelope"></i>
+
+                            </a>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
 
 
     <!-- =========================
@@ -822,17 +1047,18 @@
     <footer>
 
         <p>
-            © 2026 TU NOMBRE. Todos los derechos reservados.
+            © 2026 Christian Criollo
         </p>
 
         <p>
-            Página web desarrollada para proyecto académico.
+            Página web desarrollada para proyecto
+            académico de Cloud Computing.
         </p>
 
     </footer>
 
 
-    <!-- JavaScript -->
+    <!-- JAVASCRIPT -->
 
     <script src="script.js"></script>
 
